@@ -66,6 +66,7 @@ EdiSalOrderUI_right <- function() {
   res <- tagList(
 
     tsui::mdl_text2(id = 'text_EdiSalOrder_FBillNO_delete',label ='输入订单号' ,value ='4500447949' ),
+    tsui::mdl_text2(id = 'text_EdiSalOrder_FDate_delete',label ='输入报文创建日期' ,value ='20260630' ),
 
     shiny::actionButton(inputId = 'btn_EdiSalOrder_delete',label = '删除订单'),
 
